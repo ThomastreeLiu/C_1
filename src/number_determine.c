@@ -1,4 +1,4 @@
-//this is the function of getting the input
+//this is the function of getting the digit
 
 #include<stdio.h>
 #include<math.h>
