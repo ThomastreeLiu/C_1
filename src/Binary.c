@@ -1,8 +1,11 @@
 #include<stdio.h>
 #include"number_request.h"
+#include"number_determine.h"
 
-char main(void){
-	int numb = getnum();
-	printf("The number is %d\n", numb);
+int main(void){
+	int numd = getnum();
+	int digit = getdigit(numd);
+	printf("The number is %d\n", numd);
+	printf("%d digits required\n", digit);
 	return 0;	
 }
