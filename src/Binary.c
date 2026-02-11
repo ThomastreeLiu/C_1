@@ -13,6 +13,7 @@ int main(void){
 		int arr[digit];
 		getans_a(digit, numd, arr);
 		printf("The final answer is ");
+		digit = digit-1;
 		while(digit>=0){
 			printf("%d", arr[digit]);
 			digit=digit-1;
