@@ -10,7 +10,7 @@ int main(void){
 	int digit = getdigit(numd);
 	printf("%d digits required\n", digit);
 //	if(digit>10){
-		printf("digit over 10, turn into array mode\n");
+//		printf("digit over 10, turn into array mode\n");
 		int arr[digit];
 		getans_a(digit, numd, arr);
 		printf("The final answer is ");
